@@ -133,7 +133,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.ShowIcon = false;
-            this.Text = "NewUserAdding";
+            this.Text = "Створення нового користувача";
             this.ResumeLayout(false);
             this.PerformLayout();
 

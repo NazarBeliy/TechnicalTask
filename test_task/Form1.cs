@@ -134,6 +134,7 @@ namespace test_task
                     row.Cells["NS"].Value = NewData.Name;
                     row.Cells["PN"].Value = NewData.PhoneNumber;
                     row.Cells["email"].Value = NewData.Email;
+                    row.Cells["SRNP"].Value = NewData.TaxId;
                     row.Cells["LTCD"].Value = NewData.Updated;
                 }
             }
