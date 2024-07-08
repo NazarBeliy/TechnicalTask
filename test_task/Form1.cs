@@ -55,7 +55,7 @@ namespace test_task
                     if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(phoneNumber) ||
                         string.IsNullOrEmpty(email) || string.IsNullOrEmpty(taxId))
                     {
-                        MessageBox.Show("Деякі поля порожні. Неможливо відкрити вікно редагування.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Деякі поля порожні. Неможливо відкрити вікно редагування.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
@@ -119,7 +119,7 @@ namespace test_task
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("Помилка: " + ex.Message);
             }
         }
         public void UpdateUser(User OldData, User NewData)
